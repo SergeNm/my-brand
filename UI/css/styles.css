@@ -52,6 +52,10 @@ header li{
 
 footer {
     background-color: rgba(28, 1, 24, 0.17);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
 }
 
 .social-icon{
@@ -73,4 +77,26 @@ footer {
 
 .info-light a{
     color: #91e5f6;
+}
+
+
+
+/* MEDIA QUERRIES */
+
+@media (min-width:600px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav{
+        align-self: center;
+    }
+    #introduction{
+        display: flex;
+    }
+    #introduction article{
+        width: 50%;
+    }
+    
+    
 }

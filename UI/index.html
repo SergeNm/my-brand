@@ -1,67 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="keywords"
-      content="Software Developer, Mobile Developer, Web Design, full-stack"
-    />
-    <meta
-      name="description"
-      content="Portfolio and proffessions as software developer"
-    />
+    <meta name="keywords" content="Software Developer, Mobile Developer, Web Design, full-stack" />
+    <meta name="description" content="Portfolio and proffessions as software developer" />
     <meta name="author" content="Mugisha Serge N." />
     <title>Software Developer | My-Brand</title>
     <link rel="stylesheet" href="./css/styles.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-      <div class="container">
-        <div id="branding">
-          <img src="images/logo.svg" alt="LOGO" />
+        <div class="container header">
+            <div id="branding">
+                <img src="images/logo.svg" alt="LOGO" />
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#"> About </a></li>
+                    <li><a href="pages/blog.html" class="button-nav"> Blog </a></li>
+                    <li><a href="contact.html" class="button-nav"> Contact </a></li>
+                    <li class="login-btn">
+                        <a href="#" class="button-nav" onclick="document.getElementById('id01').style.display='block'">
+                            Login
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-          <ul>
-            <li><a href="#"> About </a></li>
-            <li><a href="pages/blog.html" class="button-nav"> Blog </a></li>
-            <li><a href="contact.html" class="button-nav"> Contact </a></li>
-            <li class="login-btn">
-              <a
-                href="#"
-                class="button-nav"
-                onclick="document.getElementById('id01').style.display='block'"
-              >
-                Login
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
     </header>
 
-    <section id="introduction">
-      <div class="container">
+    <section id="introduction" class="container">
         <article>
-          <h1><span id="iam">I'm</span> MUGISHA Serge N.</h1>
-          <h2"><b>Software Developer</b></h2>
-          <h3>
-            I design and develop solutions to companies <br />and
-            individualsthrough publishing their brands.
-          </h3>
-          <button id="explore">Explore More</button>
+            <h1><span id="iam">I'm</span> MUGISHA Serge N.</h1>
+            <h2"><b>Software Developer</b></h2>
+                <h3>
+                    I design and develop solutions to companies <br />and
+                    individuals through publishing their brands.
+                </h3>
+                <button id="explore">Explore More</button>
+        </article>
+        <article>
+            <img src="images/certificate.svg" />
+            <h3>
+                Took different courses of front-end and back-end development. Acquired
+                adequate skills to deliver effecient web and moblile application
+            </h3>
         </article>
 
-        <article>
-          <img src="images/certificate.svg" />
-          <h3>
-            Took different courses of front-end and back-end development. Acquired
-            adequate skills to deliver effecient web and moblile application
-          </article>
-          </h3>
-      </div>
     </section>
 
     <footer>
@@ -80,5 +69,6 @@
         </div>
     </footer>
 
-  </body>
+</body>
+
 </html>
