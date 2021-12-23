@@ -18,7 +18,7 @@ body {
   box-sizing: border-box;
 }
 
-#introduction, #blogs, #contact{
+#introduction, #blogs, #contact, #sign-in{
     padding-top: 150px;
     padding-bottom: 50px;
 }
@@ -109,8 +109,8 @@ textarea{
   padding-top: -50px;
   float: right;
 }
-input[type="text"] {
-  width: 160px;
+input[type="text"], input[type="password"] {
+  min-width: 160px;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
@@ -136,11 +136,34 @@ select{
 }
 
 /* CONTACT PAGE */
+
 #contact {
     display: flex;
     flex-direction: column;
 }
 
+
+
+/* SIGN IN PAGE */
+
+img.avatar {
+    width: 20%;
+    border-radius: 50%;
+  }
+  #sign-in{
+    display: flex;
+    justify-content: space-around;
+  }
+  .login-form-container form{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+  }
+
+  .login-form-container label, .login-form-container input{
+      align-self: flex-start;
+  }
 
 
 /* HEADER */
